@@ -88,14 +88,9 @@ section {
     transition: ease 0.3s all;
 }
 
-.menu__link .active {
-    background: #333;
-    color: #fff;
-}
-
 /* Header Styles */
 .page__header {
-    background: #fff;
+    background: lightblue;
     position: fixed;
     top: 0;
     width: 100%;
@@ -211,6 +206,11 @@ section.your-active-class .landing__container::before {
 section.your-active-class .landing__container::after {
     opacity: 1;
     animation: rotate 5s linear 0s infinite forwards reverse;
+}
+
+.active {
+    background: rgb(111, 230, 111);
+    color: #fff;
 }
 
 /* Section Active Styles Keyframe Animations */
